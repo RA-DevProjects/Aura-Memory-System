@@ -20,7 +20,8 @@ You must have **Ollama** installed and running on your local machine.
 ### 2. Choose Your Model
 By default, this script uses `dolphin3:8b`, but you can use any model you have downloaded. 
 * Open `soul.py` and change the `MODEL` variable at the top:
-* 
+
+ 
   ```python
   MODEL = "your-model-name-here"
   

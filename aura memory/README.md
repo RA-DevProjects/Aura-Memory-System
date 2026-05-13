@@ -22,6 +22,7 @@ By default, this script uses `dolphin3:8b`, but you can use any model you have d
 * Open `soul.py` and change the `MODEL` variable at the top:
   ```python
   MODEL = "your-model-name-here"
+  
 IT IS VITAL YOU CHANGE THIS TO YOUR LOCAL AI
 
 ---

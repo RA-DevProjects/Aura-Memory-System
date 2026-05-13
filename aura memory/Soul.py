@@ -5,7 +5,7 @@ from ollama import Client
 import datetime
 from collections import Counter
 
-# --- CONFIGURATION ---
+#CHANGE YOUR MODEL HERE
 MODEL = "dolphin3:8b"
 MEMORY_FILE = "memory.md"
 SUMMARY_FILE = "summary.md"
@@ -16,7 +16,7 @@ MAX_MEMORY_BLOCKS_TO_KEEP = 20
 MAX_RELEVANT_BLOCKS = 5
 MAX_RECENT_BLOCKS_IN_PROMPT = 4
 
-# Generic Personality
+#PERSONALITY (FREE FEEL TO EDIT)
 SYSTEM_PROMPT = """
 You are Aura, a helpful and concise AI assistant. 
 You use the provided context and conversation history to stay consistent.
